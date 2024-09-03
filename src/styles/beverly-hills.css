@@ -1,0 +1,38 @@
+.header {
+  background-image: radial-gradient(hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.7)),
+    url(../images/BeverlyHills.jpg);
+  background-position: 50% top;
+  background-size: cover;
+}
+.header span {
+  display: block;
+}
+.template-header-text h1 span {
+  display: block;
+}
+
+@media screen and (min-width: 615px) {
+  .header {
+    background-position: center top;
+    background-size: 1100px;
+  }
+  .header span {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 615px) {
+  .header {
+    background-position: center bottom;
+    background-size: cover;
+  }
+  .header span {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .template-header-text h1 span {
+    display: inline-block;
+  }
+}

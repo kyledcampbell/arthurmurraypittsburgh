@@ -1,0 +1,97 @@
+.calendar {
+  padding: 5vh 0;
+  display: grid;
+  grid-template-columns: calc(100% - 2.3rem);
+  text-align: center;
+  justify-content: center;
+}
+.google-cal {
+  border: 2px dashed rgb(207, 207, 207);
+  border-radius: 15px;
+  max-width: 1000px;
+}
+
+.calendar-section h2 {
+  color: var(--offwhite);
+  text-align: center;
+}
+
+a.calendar-link {
+  color: #061d37;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+a.calendar-link:hover {
+  color: var(--mediumblue);
+  transition: all 0.3s ease-out;
+}
+.calendar-link-button {
+  margin-top: 1em;
+}
+.calendar-keys {
+  margin-top: 1.5em;
+}
+.calendar-key {
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  transition: all 0.3s ease-out;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+.calendar-key:first-of-type,
+.calendar-key:nth-of-type(2),
+.calendar-key:nth-of-type(3) {
+  margin-bottom: 0.2em;
+}
+
+.newcomer {
+  color: #add8e6;
+}
+.parties {
+  color: #ffb600;
+}
+
+.bronze1 {
+  color: #0067cd;
+}
+
+.bronze2 {
+  color: #061d37;
+}
+@media screen and (min-width: 1000px) {
+  .calendar {
+    padding: 3vw 0 5vw;
+  }
+  .calendar-header {
+    margin-top: 1em;
+  }
+  .google-cal {
+    justify-self: center;
+    width: 1000px;
+  }
+  .calendar-keys {
+    width: 1000px;
+    margin: 1.5em auto 0;
+  }
+}
+
+.mbsc-socal-blue.mbsc-calendar-label {
+  color: #061d37;
+}
+.mbsc-ios.mbsc-calendar-width-md .mbsc-calendar-title {
+  font-size: 1.46em;
+}
+.mbsc-socal-blue.mbsc-calendar-label-text {
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+}
+
+.mbsc-socal-blue.mbsc-event-color {
+  background: #555;
+}
+.mbsc-font {
+  font-family: "Josefin Sans", sans-serif;
+}
