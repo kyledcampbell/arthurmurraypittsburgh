@@ -160,7 +160,7 @@
 
 @media screen and (min-width: 650px) {
   .location-cards {
-    grid-template-columns: repeat(2, minmax(calc(50% - 0.5em)), 350px);
+    grid-template-columns: repeat(3, minmax(calc(50% - 0.5em)), 350px);
     justify-content: center;
   }
   .locations {
@@ -173,10 +173,10 @@
   }
   .location-card-item:first-of-type {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
   .location-card-item:last-of-type {
-    grid-column: 2 / 3;
+    grid-column: 1 / 3;
     grid-row: 2 / 3;
   }
   .location-card-item h3 {
@@ -194,7 +194,7 @@
 
 @media screen and (min-width: 857px) {
   .legacy {
-    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(auto, 600px)) minmax(
+    grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(auto, 600px)) minmax(
         1em,
         1fr
       );
@@ -233,10 +233,10 @@
   }
   .location-card-item:first-of-type {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
   .location-card-item:last-of-type {
-    grid-column: 2 / 3;
+    grid-column: 1 / 3;
     grid-row: 2 / 3;
   }
 }

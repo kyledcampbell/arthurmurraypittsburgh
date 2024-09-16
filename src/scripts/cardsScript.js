@@ -27,6 +27,8 @@ ready(() => {
             mainLinks[3].click();
           } else if (item.id === "card5") {
             mainLinks[4].click();
+          } else if (item.id === "card6") {
+            mainLinks[5].click();
           }
         }
       },
