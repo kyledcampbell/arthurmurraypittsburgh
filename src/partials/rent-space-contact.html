@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="styles/contact.css" />
+<section class="contact" id="contact">
+  <div class="call-to-action ascale">
+    <h2>Book our space</h2>
+    <p class="contact-tag"> $200/hour (3 hr Min) <br> One-time $100 cleaning fee </p>
+  <ul>
+    <ul>
+      <li>Tables and seating up to 50 people <br> (we can accommodate up to 150 people if need be)</li>
+      <li>Full sound/lighting system + disco ball</li>
+      <li>Free-standing bar</li>
+      <li>Black or white chair covers/table cloths</li>
+      <li>2800 sq.ft. space. 2200 sq.ft. <br> Solid wood floating dance floor</li>
+      <li>Chair sashes, table runners, and up-lighting available for an additional charge</li>
+      <li>Great for weddings, anniversaries, birthdays, graduations, quinceañeras, bar mitzvahs, baby showers etc.</li>
+  </ul>
+  </div>
+  <form
+    name="rentContact"
+    method="POST"
+    id="contactForm"
+    action="./thank-you-rent.html"
+    class="form"
+    netlify-honeypot="bot-field"
+    data-netlify="true"
+  >
+    <h2>Inquire today!</h2>
+    <fieldset>
+      <p class="form-info">Send us some info and we'll get you started.</p>
+      <p class="requiredText">
+        <small
+          >Fields marked with an
+          <span class="required" role="presentation"></span>are required</small
+        >
+      </p>
+      <label class="required" for="name"> Name </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        autocomplete="name"
+        placeholder="Name"
+        class="input"
+        aria-required="true"
+        required
+      />
+      <p>Please enter your name.</p>
+      <label class="required" for="email"> Email </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        autocomplete="email"
+        placeholder="Email"
+        class="input"
+        aria-required="true"
+        required
+      />
+      <p>Please enter a valid email address.</p>
+      <label class="required" for="phone"> Phone </label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        autocomplete="tel"
+        pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$"
+        placeholder="Phone"
+        title="Enter US phone number"
+        class="input"
+        aria-required="true"
+        required
+      />
+      <p>Please enter a valid phone number.</p>
+      <label for="message">Tell us about your event...include the date!</label>
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Message"
+        rows="4"
+      ></textarea>
+      <label class="required" for="location"> Event Type </label>
+      <div class="custom-select">
+        <select required id="location" name="location" class="select-css">
+          <option value="">--Select an Option--</option>
+          <option value="wedding">Wedding</option>
+          <option value="birthday">Birthday</option>
+          <option value="shower">Shower</option>
+          <option value="corporate">Corporate Event</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <p class="hidden">
+        <label> Don't fill this out if you're human: <input name="bot-field" />
+      </p>
+      <button type="submit" id="submit" value="submit">Submit</button>
+    </fieldset>
+  </form>
+</section>
