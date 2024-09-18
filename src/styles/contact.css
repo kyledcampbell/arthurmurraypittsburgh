@@ -115,7 +115,8 @@ fieldset {
 }
 
 input,
-textarea {
+textarea,
+select {
   padding: 0.83rem;
   border: solid 1px #999;
   border-radius: 8px;
@@ -206,6 +207,36 @@ input.dirty:not(:focus):invalid {
 
 .contact label:nth-of-type(4) {
   margin-top: 0;
+}
+
+.custom-select select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.select-css::-ms-expand {
+  display: none;
+}
+.select-css:focus {
+  outline-color: var(--arthurMurrayBlue);
+}
+
+.custom-select {
+  position: relative;
+  display: grid;
+}
+
+.custom-select::before {
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 900;
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  color: var(--arthurMurrayBlue);
+  pointer-events: none;
+  display: inline-block;
 }
 
 .radio-buttons input[type="radio"] {

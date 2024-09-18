@@ -2,16 +2,20 @@
 <section class="contact" id="contact">
   <div class="call-to-action ascale">
     <h2>Book our space</h2>
-    <p class="contact-tag"> $200/hour (3 hr Min) <br> One-time $100 cleaning fee </p>
+    <!--<p class="contact-tag"> $200/hour (3 hr Min) <br> One-time $100 cleaning fee </p>-->
   <ul>
     <ul>
-      <li>Tables and seating up to 50 people <br> (we can accommodate up to 150 people if need be)</li>
-      <li>Full sound/lighting system + disco ball</li>
-      <li>Free-standing bar</li>
-      <li>Black or white chair covers/table cloths</li>
-      <li>2800 sq.ft. space. 2200 sq.ft. <br> Solid wood floating dance floor</li>
-      <li>Chair sashes, table runners, and up-lighting available for an additional charge</li>
-      <li>Great for weddings, anniversaries, birthdays, graduations, quinceañeras, bar mitzvahs, baby showers etc.</li>
+      
+      <li>Versatile Spaces <br> Tailored to your specific needs, from intimate to large scale events.</li>
+      <li>Captivating Atmosphere <br> Elegance combined with functionality to create the perfect backdrop for any occasion.</li>
+      <li>Top-Notch Amenities <br> Professional audiovisual equipment, high-speed internet, comfortable seating, and ample parking.</li>
+      <li>Professional Event Planning <br> Bring your vision to life!</li>
+      <li>Prime Location <br> With nearby hotels, restaurants, and attractions, your attendees will have everything they need at their fingertips.</li>
+      <li>We have the perfect space for you! <br> Our East, West, and Downtown studios are ideal for your social event!</li>
+      <li>Call David for details</li>
+      <li>412.260.7550</li>
+      <li>For Pittsburgh East <a href="https://arthurmurraypittsburgheast.com/rent-our-space"> click here!</a></li>
+      <li>For Pittsburgh West <a href="https://arthurmurraypittsburghwest.com/rent-our-space"> click here!</a></li>
   </ul>
   </div>
   <form
@@ -70,16 +74,18 @@
         required
       />
       <p>Please enter a valid phone number.</p>
-      <label for="message">Tell us about your event...include the date!</label>
+      <label class="required" for="message">Describe your event...include the date!</label>
       <textarea
         name="message"
         id="message"
         placeholder="Message"
         rows="4"
+        aria-required="true"
+        required
       ></textarea>
-      <label class="required" for="location"> Event Type </label>
+      <label class="required" for="event"> Event Type </label>
       <div class="custom-select">
-        <select required id="location" name="location" class="select-css">
+        <select required id="event" name="event" class="select-css">
           <option value="">--Select an Option--</option>
           <option value="wedding">Wedding</option>
           <option value="birthday">Birthday</option>
