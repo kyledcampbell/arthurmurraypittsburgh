@@ -41,6 +41,10 @@ input + p {
   text-align: center;
 }
 
+.call-to-action a {
+  color: var(--arthurMurrayYellow);
+}
+
 .form h2 {
   text-align: center;
 }
