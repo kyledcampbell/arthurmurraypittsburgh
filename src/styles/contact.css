@@ -260,7 +260,7 @@ input.dirty:not(:focus):invalid {
   text-align: center;
   font-weight: 500;
   margin-top: -0.5em;
-  font-size: 0.702em;
+  font-size: 0.7em;
   color: black;
 }
 
