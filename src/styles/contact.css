@@ -254,7 +254,7 @@ input.dirty:not(:focus):invalid {
 .radio-buttons input[type="radio"] + label {
   border: 1px solid rgb(197, 197, 197);
   background-color: var(--offwhite);
-  padding: 0.4rem 0.5rem 0.15rem;
+  padding: 0.4rem 0.4rem 0.15rem;
   border-radius: 25px;
   display: inline-block;
   text-align: center;
