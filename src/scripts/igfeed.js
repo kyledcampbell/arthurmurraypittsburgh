@@ -16,7 +16,7 @@ const igAnimation = function () {
 };
 
 const sburl =
-  "https://ig.instant-tokens.com/users/a8fa12d0-d91f-4918-9436-9375b4f8c64f/instagram/7586176161418990/token?userSecret=h3h33ff15lkjxx3u0iach";
+  "https://ig.instant-tokens.com/users/a8fa12d0-d91f-4918-9436-9375b4f8c64f/instagram/8769946409704001/token?userSecret=1gdpvrzqzo9a57rslxphjr";
 
 const sbTokenSuccess = function (parsedData) {
   sbToken = parsedData.Token;
