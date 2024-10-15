@@ -229,6 +229,7 @@ input.dirty:not(:focus):invalid {
 .custom-select {
   position: relative;
   display: grid;
+  padding: 0.4rem;
 }
 
 .custom-select::before {

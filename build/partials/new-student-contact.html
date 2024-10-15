@@ -133,7 +133,7 @@
         />
         <label for="pghEast">Pittsburgh East</label>
       </div>
-      <div class="radio-buttons">
+      <div class="radio-buttons" style="margin-bottom: 1em;">
         <p>
           Dance Lessons for:
           <span class="required smaller" role="presentation"></span>
@@ -155,6 +155,16 @@
           class="locations-input"
         />
         <label for="couple">Myself & a partner</label>
+      </div>
+      <label for="reason"> Reason for dance lessons? </label>
+      <div class="custom-select">
+        <select id="reason" name="reason" class="select-css">
+          <option selected value="For_Fun">Just for Fun</option>
+          <option value="Special_Occasion">Special Occasions</option>
+          <option value="Wedding_Dance">Wedding Dance</option>
+          <option value="Getting_Started">Just Getting Started</option>
+          <option value="Danced_Before">Danced Before</option>
+        </select>
       </div>
       <p class="hidden">
         <label> Don't fill this out if you're human: <input name="bot-field" />
