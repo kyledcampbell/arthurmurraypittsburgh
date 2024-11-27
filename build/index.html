@@ -995,11 +995,11 @@
     font-size: var(--h2);
   }
   .slide-1-img {
-    object-position: 75% 30%;
+    object-position: 62% 50%;
   }
 
   .slide-2-img {
-    object-position: 57% 50%;
+    object-position: 65% 60%;
   }
 
   .slide-3-img {
@@ -1080,10 +1080,10 @@
 
   @media screen and (min-width: 100px) {
     .slide-1-img {
-      object-position: 63% 60%;
+      object-position: 69% 50%;
     }
     .slide-2-img {
-      object-position: 75% 50%;
+      object-position: 63% 60%;
     }
   }
 
@@ -1254,13 +1254,33 @@
     <div class="slider">
       <section class="slide">
         <picture>
+          <source
+            type="image/webp"
+            srcset="./images/gcHolidayBanner2024.webp"
+          />
+          <img
+            src="./images/gcHolidayBanner2024.jpg"
+            alt="Young couple opening a gift certificate for Arthur Murray Dance Lessons"
+            height="750"
+            class="slide-1-img"
+          />
+        </picture>
+        <div class="slider-text">
+          <h2>The Gift of Dance</h2>
+          <a href="./gift-certificates-holiday.html#doorways" class="btn"
+            >Buy Now</a
+          >
+        </div>
+      </section>
+      <section class="slide">
+        <picture>
           <source type="image/webp" srcset="./images/holidayBanner2024.webp" />
           <img
             src="./images/holidayBanner2024.jpg"
             alt="Young couple dancing together for the Holidays"
             width="1500"
             height="750"
-            class="slide-1-img"
+            class="slide-2-img"
           />
         </picture>
         <div class="slider-text">
@@ -1268,33 +1288,10 @@
             'Tis the Season <br />
             To Be Dancing
           </h2>
-          <a href="./#contact" class="btn">Start Dancing Now</a>
+          <a href="./#contact" class="btn">Try Dancing Now</a>
         </div>
       </section>
-      <section class="slide">
-        <picture>
-          <source
-            type="image/webp"
-            srcset="./images/giftCertificateBanner.webp"
-          />
-          <img
-            src="./images/giftCertificateBanner.jpg"
-            alt="Young lady opening a gift certificate for Arthur Murray Dance Lessons"
-            height="750"
-            class="slide-2-img"
-          />
-        </picture>
-        <div class="slider-text">
-          <h2>
-            A Gift for the
-            <br />
-            Dancer at Heart
-          </h2>
-          <a href="./gift-certificates-holiday.html#doorways" class="btn"
-            >Buy Now</a
-          >
-        </div>
-      </section>
+
       <section class="slide">
         <picture>
           <source type="image/webp" srcset="./images/WeddingBanner.webp" />
