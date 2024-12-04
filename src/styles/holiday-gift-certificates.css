@@ -6,6 +6,28 @@
   background-attachment: scroll;
 }
 
+.video-player {
+  display: grid;
+  padding: 1rem 0 3rem;
+  background-color: #7e0002;
+  max-width: 2000px;
+  justify-content: center;
+  row-gap: 15px;
+  grid-template-rows: 5rem 20rem;
+}
+
+.video-player h1 {
+  display: absolute;
+  position: relative;
+  grid-row: 1/2;
+  font-size: 2.5rem;
+}
+
+.video-player iframe {
+  position: relative;
+  grid-row: 2/3;
+}
+
 .header span {
   display: block;
 }
@@ -44,6 +66,12 @@
   max-width: 330px;
 }
 
+@media screen and (min-width: 200px) {
+  .video-player h1 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 615px) {
   .careers-header {
     background-size: cover;
@@ -54,6 +82,12 @@
   }
   .exclusions {
     max-width: none;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .video-player h1 {
+    font-size: 2.5rem;
   }
 }
 
